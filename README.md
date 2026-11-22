@@ -1,6 +1,6 @@
 # Live Watcher · 直播观测站
 
-Live Watcher 是一款 macOS 菜单栏应用，用来查看关注的 B 站 UP 主是否开播、接收开播提醒和订阅主播周表，无需登录 B 站。
+Live Watcher 是一款 macOS 菜单栏应用，用来查看关注的 B 站 UP 主是否开播、接收开播提醒和订阅主播周表。无需登录 B 站，通过UID或主页/直播间链接导入主播。
 
 **0.1.1 测试版** · **macOS 14+**
 
@@ -25,3 +25,8 @@ Live Watcher 是一款 macOS 菜单栏应用，用来查看关注的 B 站 UP �
 ## 许可证
 
 本项目原创代码采用 **GPL-3.0-or-later**（Copyright © 2026 GuZhengSVT），详见 [LICENSE](<LICENSE>)。第三方依赖和素材不在本项目的 GPL 授权范围内，详见 [第三方声明](<THIRD-PARTY-NOTICES.md>)。
+
+## 额外声明
+1. 本项目README.md图片中的主播与本项目无关，仅作软件展示用。
+2. 本项目与Laplace花店无关。毕竟我也没有nth牌子😋
+3. 我不是管人痴，我有自己的节奏😎
