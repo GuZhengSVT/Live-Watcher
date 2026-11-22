@@ -1,0 +1,24 @@
+{
+  "originHash" : "058b367f34a85d3a0a90852eddb4887b1a9fc0ef8a7d9d1ea03ff1b904781694",
+  "pins" : [
+    {
+      "identity" : "swift-calendar-kit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/arraypress/swift-calendar-kit.git",
+      "state" : {
+        "revision" : "649a2b801b34999bb0615a96dd5fbbbae663829a",
+        "version" : "0.2.0"
+      }
+    },
+    {
+      "identity" : "swift-chrono-kit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/arraypress/swift-chrono-kit.git",
+      "state" : {
+        "revision" : "ac0f00fa6f551f7ef1be97bd9d37b8690bf970ef",
+        "version" : "0.12.0"
+      }
+    }
+  ],
+  "version" : 3
+}

@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030631888EF4433AA6E99382 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA28C68F7BA782B25D03324C /* Assets.xcassets */; };
+		08294EEADDBB2CAE61E5A2CF /* LiveWatcherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7252B88E870F8E1D3267159A /* LiveWatcherApp.swift */; };
+		105655EFF9DBBEFE3695D86E /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC58ED3B864461FB845290F4 /* Palette.swift */; };
+		2CAD1E9525D1C11DDA8BCD23 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB5760F921C4EA704BA2266 /* Cocoa.framework */; };
+		441910182752FE454A37CB7C /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3724769F8AB8F08262760BF /* Dashboard.swift */; };
+		59CF52F7E7DA5234F138A137 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484564689AA4BEF9A5DA0D06 /* Station.swift */; };
+		65BE15D5BA67B7F677D1DC20 /* Bilibili.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1071B796EE13425CC906F3A /* Bilibili.swift */; };
+		680C38A0B5D49E0E26265846 /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC58ED3B864461FB845290F4 /* Palette.swift */; };
+		7CA29DCB636831C0111105FA /* Bilibili.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1071B796EE13425CC906F3A /* Bilibili.swift */; };
+		835AC3BE53A3B85A80B81ECE /* PreferencesViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D878CC0C69E2BDC602F1F3D8 /* PreferencesViews.swift */; };
+		BF4F17E498F882182A49C6B5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB5760F921C4EA704BA2266 /* Cocoa.framework */; };
+		C414F5F7FE30E7467FE2B0D5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB5760F921C4EA704BA2266 /* Cocoa.framework */; };
+		D596A62579689C632134220F /* Monitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BEEEE56DB7C0040A0556CE /* Monitor.swift */; };
+		F913FC2136D448448E0F9D6E /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D5DEFA23B94BDF8A1CF010 /* Artwork.swift */; };
+		DBE512C2DC51E73616EB56CC /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484564689AA4BEF9A5DA0D06 /* Station.swift */; };
+		DD464285E15915E8A5AD8B74 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484564689AA4BEF9A5DA0D06 /* Station.swift */; };
+		F3A14B64E60A4DE9C3340513 /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC58ED3B864461FB845290F4 /* Palette.swift */; };
+		F89867ACE30861362C6B3F73 /* LiveWatcherWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 77822296A74A08C470A9B539 /* LiveWatcherWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FCAB1CA385165E565240063E /* LiveWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25F3DE9681F78BCF48B2A34 /* LiveWidget.swift */; };
+		FD47480DF97469A6BC1D67C0 /* Bilibili.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1071B796EE13425CC906F3A /* Bilibili.swift */; };
+		FEF7FF2B51779A4C9C5D5900 /* StationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAEECD589C4AA7B4330E974 /* StationTests.swift */; };
+		902A142659D943C29F7A4EEE /* Schedules.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA3B16A60BF4C0F94B68B5D /* Schedules.swift */; };
+		C081FEAB85DC4F5A9C58C17A /* Schedules.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA3B16A60BF4C0F94B68B5D /* Schedules.swift */; };
+		84701CEFE9F84E2EB1BCA45F /* ScheduleViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CA47952CC8447DA5A3FAD5 /* ScheduleViews.swift */; };
+		853192F41E424227AE46B1E3 /* ScheduleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE4343805CD437B916E9385 /* ScheduleTests.swift */; };
+		65CBE10319894B4E86C4B169 /* CalendarCore in Frameworks */ = {isa = PBXBuildFile; productRef = C17F0D6EA086435A88B32E86 /* CalendarCore */; };
+		28EC7C98319B4D49830552AE /* CalendarCore in Frameworks */ = {isa = PBXBuildFile; productRef = C010174B39234B648CDC4A42 /* CalendarCore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E6267413B9EBA616FBD6B47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3EB943D28A0DB4ED5C83071 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40D9AC2956AC40F4CE1D7A98;
+			remoteInfo = LiveWatcherWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2EA252EE7576A7C59BFDB59E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F89867ACE30861362C6B3F73 /* LiveWatcherWidget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		11BEEEE56DB7C0040A0556CE /* Monitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Monitor.swift; sourceTree = "<group>"; };
+		D7D5DEFA23B94BDF8A1CF010 /* Artwork.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
+		2CAEECD589C4AA7B4330E974 /* StationTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StationTests.swift; sourceTree = "<group>"; };
+		484564689AA4BEF9A5DA0D06 /* Station.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
+		54E83E93ADE4C0A19D0FB798 /* Widget-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Widget-Info.plist"; sourceTree = "<group>"; };
+		7252B88E870F8E1D3267159A /* LiveWatcherApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LiveWatcherApp.swift; sourceTree = "<group>"; };
+		77822296A74A08C470A9B539 /* LiveWatcherWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LiveWatcherWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A71348DC04D0B591C09A2F8 /* App-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "App-Info.plist"; sourceTree = "<group>"; };
+		9FA17D473A221E152015BCF5 /* Watcher.entitlements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.entitlements; path = Watcher.entitlements; sourceTree = "<group>"; };
+		A25F3DE9681F78BCF48B2A34 /* LiveWidget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LiveWidget.swift; sourceTree = "<group>"; };
+		AC58ED3B864461FB845290F4 /* Palette.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Palette.swift; sourceTree = "<group>"; };
+		BA28C68F7BA782B25D03324C /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFB5760F921C4EA704BA2266 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CEFF0E3301E4BD680581C67F /* LiveWatcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveWatcherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1071B796EE13425CC906F3A /* Bilibili.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Bilibili.swift; sourceTree = "<group>"; };
+		D3724769F8AB8F08262760BF /* Dashboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
+		D84FF7CD7C37E1407681FCF8 /* Live Watcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Live Watcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D878CC0C69E2BDC602F1F3D8 /* PreferencesViews.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PreferencesViews.swift; sourceTree = "<group>"; };
+		EAA3B16A60BF4C0F94B68B5D /* Schedules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedules.swift; sourceTree = "<group>"; };
+		13CA47952CC8447DA5A3FAD5 /* ScheduleViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViews.swift; sourceTree = "<group>"; };
+		6CE4343805CD437B916E9385 /* ScheduleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B6580289DFA784EED07C6FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28EC7C98319B4D49830552AE /* CalendarCore in Frameworks */,
+				BF4F17E498F882182A49C6B5 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BB0D5F798D5CB147BC3093D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CAD1E9525D1C11DDA8BCD23 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39A6D4BB82014DB3C84ADAFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65CBE10319894B4E86C4B169 /* CalendarCore in Frameworks */,
+				C414F5F7FE30E7467FE2B0D5 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0863DAD85602A1B890CB5E70 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6CE4343805CD437B916E9385 /* ScheduleTests.swift */,
+				2CAEECD589C4AA7B4330E974 /* StationTests.swift */,
+			);
+			name = Tests;
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		0A932DF0702473566615C58F /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				D1071B796EE13425CC906F3A /* Bilibili.swift */,
+				AC58ED3B864461FB845290F4 /* Palette.swift */,
+				484564689AA4BEF9A5DA0D06 /* Station.swift */,
+			);
+			name = Shared;
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		15DD41367ADEF641DD234154 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				A25F3DE9681F78BCF48B2A34 /* LiveWidget.swift */,
+			);
+			name = Widget;
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		2702F39558385DEC5665CF57 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				BFB5760F921C4EA704BA2266 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		4F276382E832CDB819F99564 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D84FF7CD7C37E1407681FCF8 /* Live Watcher.app */,
+				77822296A74A08C470A9B539 /* LiveWatcherWidget.appex */,
+				CEFF0E3301E4BD680581C67F /* LiveWatcherTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		562C4AB1C30002336EF24025 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EAA3B16A60BF4C0F94B68B5D /* Schedules.swift */,
+				13CA47952CC8447DA5A3FAD5 /* ScheduleViews.swift */,
+				D3724769F8AB8F08262760BF /* Dashboard.swift */,
+				7252B88E870F8E1D3267159A /* LiveWatcherApp.swift */,
+				11BEEEE56DB7C0040A0556CE /* Monitor.swift */,
+				D7D5DEFA23B94BDF8A1CF010 /* Artwork.swift */,
+				D878CC0C69E2BDC602F1F3D8 /* PreferencesViews.swift */,
+				BA28C68F7BA782B25D03324C /* Assets.xcassets */,
+			);
+			name = App;
+			path = App;
+			sourceTree = "<group>";
+		};
+		583683B23AA2AEC573144997 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2702F39558385DEC5665CF57 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F5959E6A49F4055ABAE2418 = {
+			isa = PBXGroup;
+			children = (
+				4F276382E832CDB819F99564 /* Products */,
+				583683B23AA2AEC573144997 /* Frameworks */,
+				562C4AB1C30002336EF24025 /* App */,
+				0A932DF0702473566615C58F /* Shared */,
+				15DD41367ADEF641DD234154 /* Widget */,
+				0863DAD85602A1B890CB5E70 /* Tests */,
+				876756D9BB71E5A352AA28F6 /* Config */,
+			);
+			sourceTree = "<group>";
+		};
+		876756D9BB71E5A352AA28F6 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				8A71348DC04D0B591C09A2F8 /* App-Info.plist */,
+				9FA17D473A221E152015BCF5 /* Watcher.entitlements */,
+				54E83E93ADE4C0A19D0FB798 /* Widget-Info.plist */,
+			);
+			name = Config;
+			path = Config;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40D9AC2956AC40F4CE1D7A98 /* LiveWatcherWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06B9AAB2624A494787FE6248 /* Build configuration list for PBXNativeTarget "LiveWatcherWidget" */;
+			buildPhases = (
+				6C86F6C36FF4C9C245DECEFF /* Sources */,
+				2BB0D5F798D5CB147BC3093D /* Frameworks */,
+				68C7CD9ECA13539B98E12461 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiveWatcherWidget;
+			productName = LiveWatcherWidget;
+			productReference = 77822296A74A08C470A9B539 /* LiveWatcherWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		8A292644318075157CE5D9FE /* Live Watcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6C47DED9BD2EF103636689B /* Build configuration list for PBXNativeTarget "Live Watcher" */;
+			buildPhases = (
+				85C34C42CB12189ABCDCBF3A /* Sources */,
+				39A6D4BB82014DB3C84ADAFF /* Frameworks */,
+				998851F45A28E7108E3E6822 /* Resources */,
+				2EA252EE7576A7C59BFDB59E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93EA14D47B06558747CF26AF /* PBXTargetDependency */,
+			);
+			name = "Live Watcher";
+			packageProductDependencies = (
+				C17F0D6EA086435A88B32E86 /* CalendarCore */,
+			);
+			productName = "Live Watcher";
+			productReference = D84FF7CD7C37E1407681FCF8 /* Live Watcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC60CB6B70837403498F138C /* LiveWatcherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66411402E4E94DA1CC3172BE /* Build configuration list for PBXNativeTarget "LiveWatcherTests" */;
+			buildPhases = (
+				C75401860726C38B88F7288B /* Sources */,
+				0B6580289DFA784EED07C6FC /* Frameworks */,
+				752B95EED5C445C2C04F2CBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiveWatcherTests;
+			packageProductDependencies = (
+				C010174B39234B648CDC4A42 /* CalendarCore */,
+			);
+			productName = LiveWatcherTests;
+			productReference = CEFF0E3301E4BD680581C67F /* LiveWatcherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3EB943D28A0DB4ED5C83071 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					40D9AC2956AC40F4CE1D7A98 = {
+						ProvisioningStyle = Manual;
+					};
+					8A292644318075157CE5D9FE = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 80F8F9431188AF939B3FE00B /* Build configuration list for PBXProject "LiveWatcher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 6F5959E6A49F4055ABAE2418;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 100;
+			productRefGroup = 4F276382E832CDB819F99564 /* Products */;
+			packageReferences = (
+				FA42AA584BA94C00963E2AB4 /* XCRemoteSwiftPackageReference "swift-calendar-kit" */,
+			);
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A292644318075157CE5D9FE /* Live Watcher */,
+				40D9AC2956AC40F4CE1D7A98 /* LiveWatcherWidget */,
+				CC60CB6B70837403498F138C /* LiveWatcherTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68C7CD9ECA13539B98E12461 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		752B95EED5C445C2C04F2CBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		998851F45A28E7108E3E6822 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030631888EF4433AA6E99382 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C86F6C36FF4C9C245DECEFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65BE15D5BA67B7F677D1DC20 /* Bilibili.swift in Sources */,
+				F3A14B64E60A4DE9C3340513 /* Palette.swift in Sources */,
+				59CF52F7E7DA5234F138A137 /* Station.swift in Sources */,
+				FCAB1CA385165E565240063E /* LiveWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85C34C42CB12189ABCDCBF3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				441910182752FE454A37CB7C /* Dashboard.swift in Sources */,
+				08294EEADDBB2CAE61E5A2CF /* LiveWatcherApp.swift in Sources */,
+				D596A62579689C632134220F /* Monitor.swift in Sources */,
+				F913FC2136D448448E0F9D6E /* Artwork.swift in Sources */,
+				835AC3BE53A3B85A80B81ECE /* PreferencesViews.swift in Sources */,
+				FD47480DF97469A6BC1D67C0 /* Bilibili.swift in Sources */,
+				105655EFF9DBBEFE3695D86E /* Palette.swift in Sources */,
+				902A142659D943C29F7A4EEE /* Schedules.swift in Sources */,
+				84701CEFE9F84E2EB1BCA45F /* ScheduleViews.swift in Sources */,
+				DD464285E15915E8A5AD8B74 /* Station.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C75401860726C38B88F7288B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CA29DCB636831C0111105FA /* Bilibili.swift in Sources */,
+				680C38A0B5D49E0E26265846 /* Palette.swift in Sources */,
+				C081FEAB85DC4F5A9C58C17A /* Schedules.swift in Sources */,
+				853192F41E424227AE46B1E3 /* ScheduleTests.swift in Sources */,
+				DBE512C2DC51E73616EB56CC /* Station.swift in Sources */,
+				FEF7FF2B51779A4C9C5D5900 /* StationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93EA14D47B06558747CF26AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LiveWatcherWidget;
+			target = 40D9AC2956AC40F4CE1D7A98 /* LiveWatcherWidget */;
+			targetProxy = 8E6267413B9EBA616FBD6B47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FA42AA584BA94C00963E2AB4 /* XCRemoteSwiftPackageReference "swift-calendar-kit" */ = {isa = XCRemoteSwiftPackageReference; repositoryURL = "https://github.com/arraypress/swift-calendar-kit.git"; requirement = {kind = exactVersion; version = 0.2.0; }; };
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C17F0D6EA086435A88B32E86 /* CalendarCore */ = {isa = XCSwiftPackageProductDependency; package = FA42AA584BA94C00963E2AB4 /* XCRemoteSwiftPackageReference "swift-calendar-kit" */; productName = CalendarCore; };
+		C010174B39234B648CDC4A42 /* CalendarCore */ = {isa = XCSwiftPackageProductDependency; package = FA42AA584BA94C00963E2AB4 /* XCRemoteSwiftPackageReference "swift-calendar-kit" */; productName = CalendarCore; };
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01D91171DE9875CAC9F0A1C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.guzhengsvt.LiveWatcher.Tests;
+				PRODUCT_NAME = LiveWatcherTests;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6DC2CE326D65804884569F25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = GGHZ44JMSZ;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		8F8F417906FF222D6ADECED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Config/Watcher.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 6;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				INFOPLIST_FILE = "Config/App-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.guzhengsvt.LiveWatcher;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9122F61F067FF330628B8B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = GGHZ44JMSZ;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		ABE715D653ADD9705AAEEE03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = Config/Watcher.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 6;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				INFOPLIST_FILE = "Config/Widget-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.guzhengsvt.LiveWatcher.Widget;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D2EF7594B7962F05933DA876 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.guzhengsvt.LiveWatcher.Tests;
+				PRODUCT_NAME = LiveWatcherTests;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E5BE48F98253533480835351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = Config/Watcher.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 6;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				INFOPLIST_FILE = "Config/Widget-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.guzhengsvt.LiveWatcher.Widget;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E62B3D48A06A0F0B7D4666AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Config/Watcher.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 6;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				INFOPLIST_FILE = "Config/App-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.guzhengsvt.LiveWatcher;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06B9AAB2624A494787FE6248 /* Build configuration list for PBXNativeTarget "LiveWatcherWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5BE48F98253533480835351 /* Release */,
+				ABE715D653ADD9705AAEEE03 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66411402E4E94DA1CC3172BE /* Build configuration list for PBXNativeTarget "LiveWatcherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01D91171DE9875CAC9F0A1C1 /* Release */,
+				D2EF7594B7962F05933DA876 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80F8F9431188AF939B3FE00B /* Build configuration list for PBXProject "LiveWatcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9122F61F067FF330628B8B17 /* Debug */,
+				6DC2CE326D65804884569F25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6C47DED9BD2EF103636689B /* Build configuration list for PBXNativeTarget "Live Watcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E62B3D48A06A0F0B7D4666AD /* Release */,
+				8F8F417906FF222D6ADECED8 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3EB943D28A0DB4ED5C83071 /* Project object */;
+}
